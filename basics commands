@@ -2,3 +2,4 @@ kubectl get pods -----------> list of pods
 kubectl desc pod podname --------> to see the all details node details, image name,
 kubectl logs podname -------> to check the pod logs
 kubectl logs podname -c containername----------> to check the container logs
+kubectl rollout undo deployment deployment_name 
